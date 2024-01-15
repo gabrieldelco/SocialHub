@@ -1,2 +1,2 @@
-# SocialHub
-Responsive social-linking web application front-end
+## SocialHub
+Built a responsive social-linking (such as linktree) web application front-end using vanilla CSS.
