@@ -1,0 +1,126 @@
+/* 
+Cores das fontes: #FFFFFF e #919193
+Gradiente: Linear, que vai da cor #5578BA para a cor #40A376​ 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif, arial;
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    height: 100%;
+    background: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    max-width: 540px;
+    padding: 20px;
+
+    color: white;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gradient {
+    background: linear-gradient(to right, #5578BA, #41A377);
+}
+
+.profilePicture {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.description {
+    color: #919193;
+    font-size: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    gap: 1.5em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+    transition: all 0.28s ease 1ms;
+
+}
+
+.list-item:hover {
+    font-size: 1.34em;
+    background: linear-gradient(to right, rgba(84, 120, 186, 0.8), rgba(64, 163, 118, 0.8));
+}
+
+.link {
+    padding: 0 45px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.link>img {
+    width: 1.2em;
+}
+
+footer {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+footer>a {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.28s ease 1ms;
+    border-radius: 50%;
+}
+
+.hover:hover {
+    background: linear-gradient(to right, rgba(84, 120, 186, 0.8), rgba(64, 163, 118, 0.8));
+}
+
+
+footer img {
+    width: 1.8em;
+}
+
+@media screen and (min-width:815px) {
+    html {
+        font-size: 16px;
+    }
+}
